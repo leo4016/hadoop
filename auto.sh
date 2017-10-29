@@ -10,7 +10,7 @@ for f in $FILES
 do
 /MINGW64/bin/git add $f
 /MINGW64/bin/git commit -m "$(date +%H-%M-%S)"
-/MINGW64/bin/git remote add origin git@github.com:leo4016/bb104.git
+/MINGW64/bin/git remote add origin git@github.com:leo4016/hadoop.git
 /MINGW64/bin/git push -u origin master
 /MINGW64/bin/git remote remove origin
 done
